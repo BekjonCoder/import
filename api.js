@@ -1,5 +1,5 @@
 
-export const getData=async(resource,container)=>{
+export const fetchPosts=async(resource,container)=>{
     try {
         const response=await fetch(resource)
        
