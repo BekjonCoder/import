@@ -1,4 +1,5 @@
-
+export const API='https://jsonplaceholder.typicode.com/posts'
+export const container=document.querySelector('.container') 
 export const fetchPosts=async(resource,container)=>{
     try {
         const response=await fetch(resource)
